@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.hobbies, .support, .fun, .tl-dr {
+    border-top: solid 1px;
+    margin-top: 40px;
+    border-color: rgb(194, 194, 194);
+
+} 
+
+p.quotation {
+    font-style: italic;
+    font-size: 120%;
+}    
+
+header {
+    margin-bottom: 30px;
+    border-bottom: solid 1px;
+    border-color: rgb(194, 194, 194);
+}
+/* ------------------------------- tableau ------------------------------------------*/
+div.tableau {
+}
+
+Table, tr {
+    width: 500px;
+    padding: 10px 0;
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+ul.checkbox {
+    list-style-type: none;  
+    padding: 0 0;
+}
+
+li.checkbox {
+    padding: 4px 0;
+}
+
+tr.trb {
+    background-color: rgb(136, 136, 255);
+}
+
+/* ------------------------------------------------------Hobbies-----------------------------------------*/
+ul.hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*--------------------------------------------------------footer ---------------------------------------------------------*/
+footer {
+    border-top: solid 1px ;
+    border-color: rgb(194, 194, 194);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 20px 0;    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+p.name-foot {
+    font-weight: bold;
+}
